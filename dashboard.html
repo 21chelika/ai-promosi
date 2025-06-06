@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dashboard Warung</title>
+  <link rel="stylesheet" href="dashboard.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="menu-icon">☰</div>
+    <div class="search-bar"></div>
+    <div class="user-info">👤 KEMAL</div>
+  </header>
+
+  <main class="container">
+    <section class="summary">
+      <div class="card">Total Pelanggan <strong>125</strong></div>
+      <div class="card">Transaksi Bulan Ini <strong>320</strong></div>
+      <div class="card">Cluster Pelanggan <strong>3 Cluster</strong></div>
+    </section>
+
+    <section class="insight">
+      <h3>Insight Warung Barakah Bapak Handoko</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+    </section>
+
+    <section class="analytics">
+      <div class="chart-box">
+        <h4>Analisis Penjualan</h4>
+        <img src="chart-bar-placeholder.png" alt="Grafik Batang">
+      </div>
+      <div class="chart-box">
+        <img src="chart-pie-placeholder.png" alt="Grafik Pie">
+      </div>
+    </section>
+
+    <section class="evaluation">
+      <h4>Evaluasi Promosi</h4>
+      <p>Berapa pelanggan yang membeli setelah promosi dikirim?<br/>
+         Produk apa yang paling banyak dibeli?</p>
+    </section>
+
+    <section class="recommendation">
+      <h4>Rekomendasi Promosi</h4>
+      <input type="text" placeholder="Cari pelanggan..." />
+      <table>
+        <thead>
+          <tr>
+            <th>Cluster</th>
+            <th>Jenis Promosi</th>
+            <th>Aksi</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Cluster A</td>
+            <td>Diskon Kebutuhan Pokok</td>
+            <td><button class="btn-detail">Detail</button></td>
+          </tr>
+          <tr>
+            <td>Cluster B</td>
+            <td>Paket Sembako Hemat</td>
+            <td><button class="btn-detail">Detail</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+</body>
+</html>
